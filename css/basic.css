@@ -50,82 +50,87 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-h1 { color: black; font-family: "Times New Roman"; }
-h1, h2 { font-family: sans-serif; font-family: "Times New Roman" ; }
+
+h1 { color: black; font-family: "Times New Roman"; font-size: 16pt ; }
+h2 { font-family: sans-serif; font-family: "Times New Roman" ; font-size: 11pt ;}
 p {text-align: justify; font-family: Verdana ; }
 body { background-color: light-grey; font-family: Verdana; }
 ul { list-style: none; }
 
 #topbar {
     padding-top: 6px ;
-    background-color: #000;
     height: 220px; 
     background-repeat: no-repeat ;
     background-image: url(pics/coffey.jpg); 
     background-position: right bottom ; 
     color: white ;
     text-align: right ;
-    font-size: 9pt ;
+    font-size: 7pt ;
     font-style: italic ;
     }
+    
 #menu a {
     display: none ;
 }
-#menu ul li a {
-    display: inline ;
+
+#menu ul {
+    margin: 0 20px ;
 }
+
+#menu ul li a {
+    display: inline-block ;
+    padding: 10px ;
+	font-family: verdana;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	border-right: 2px solid #51473d; 
+}
+
+#menu ul li a:hover {
+	color: #000;
+	background-color: #9c9084; 
+	}
 
 #content { 
     background-color: #C6DDF5; 
     width: 600px; 
-    float: left; }
+    float: left; 
+    }
     
 #maincontent {
-    background-color : #E5C9B1 ;
+    background-color : #eae7d2 ;
     width: 60% ;
     float: left ;
     height: auto ;
     min-height: 500px ;
 }
 
-.menu { 
-    height: 30px; 
-    background-color: #B29C8A;}
 .active { 
-    background-color: #E5C9B1;
+    background-color: #eae7d2;
 }
+
 #menu {
 	width: 600px;
-	float: left;
-	padding: 0;
-	background-color: #B29C8A;
-	border-bottom: 1px solid #8EC6DB; 
-	border-top: 1px solid #8EC6DB;
+	background-color: #797066;
 	}
+	
 #menu li {
-	float: left; }
-#menu li a {
-	font-family: verdana;
-	display: block;
-	padding: 2px 15px;
-	text-decoration: none;
-	font-weight: bold;
-	color: #000000;
-	border-right: 1px solid #8EC6DB; }
-#menu li a:hover {
-	color: #000;
-	background-color: #E5C9B1; }
+	float: left; 
+	}
 
 #container {
     margin: 0 auto;
-	background-color: #8EC6DB;
+	background-color: #51473d;
 	height: auto;
 	width: 600px ; 
 
 }
+
 #subcontent {
     float: right ;
-    background-color: #B29C8A ;
+    background-color: #eae7d2 ;
 	height: auto ;
 	min-height: 500px ;
 	width: 40% ;
@@ -133,7 +138,8 @@ ul { list-style: none; }
 
 #bottomcontent {
 	clear: both;
-	background-color: #B29C8A;
+	background-color: #eae7d2;
 	height: auto;
 	min-height: 50px;
-	width: 100%;     
+	width: 100%;  
+}
