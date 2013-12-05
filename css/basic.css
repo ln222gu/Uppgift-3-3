@@ -1,6 +1,55 @@
 /*
-# = id, . = class
+# = id, . = class Coffey = 600x200
 */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 h1 { color: black; font-family: "Times New Roman"; }
 h1, h2 { font-family: sans-serif; font-family: "Times New Roman" ; }
 p {text-align: justify; font-family: Verdana ; }
@@ -26,15 +75,19 @@ ul { list-style: none; }
     display: inline ;
 }
 
-.content { 
+#content { 
     background-color: #C6DDF5; 
-    width: 79%; 
+    width: 600px; 
     float: left; }
-.logo { 
-    height: 200px; 
-    width: 400px; 
-    background-image: url(pics/logo1.png) ;
-    background-repeat: no-repeat ;}
+    
+#maincontent {
+    background-color : #E5C9B1 ;
+    width: 60% ;
+    float: left ;
+    height: auto ;
+    min-height: 500px ;
+}
+
 .menu { 
     height: 30px; 
     background-color: #B29C8A;}
@@ -42,19 +95,19 @@ ul { list-style: none; }
     background-color: #E5C9B1;
 }
 #menu {
-	width: 100%;
+	width: 600px;
 	float: left;
-	margin: 0 0 3em 0;
 	padding: 0;
 	background-color: #B29C8A;
 	border-bottom: 1px solid #8EC6DB; 
-	border-top: 1px solid #8EC6DB; }
+	border-top: 1px solid #8EC6DB;
+	}
 #menu li {
 	float: left; }
 #menu li a {
 	font-family: verdana;
 	display: block;
-	padding: 8px 15px;
+	padding: 2px 15px;
 	text-decoration: none;
 	font-weight: bold;
 	color: #000000;
@@ -63,25 +116,22 @@ ul { list-style: none; }
 	color: #000;
 	background-color: #E5C9B1; }
 
-.container {
+#container {
     margin: 0 auto;
 	background-color: #8EC6DB;
 	height: auto;
-	width: 1200px ; 
+	width: 600px ; 
 
 }
-.sidebar {
-    margin-right:10px;
-    float: left;
-    background-color: #B29C8A;
-	height: auto;
-	min-height: 500px;
-	width: 19%;
+#subcontent {
+    float: right ;
+    background-color: #B29C8A ;
+	height: auto ;
+	min-height: 500px ;
+	width: 40% ;
 }
-#abbreviations li {
-	list-style: none;
-}
-.footer {
+
+#bottomcontent {
 	clear: both;
 	background-color: #B29C8A;
 	height: auto;
