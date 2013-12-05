@@ -1,1 +1,85 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+h1 { color: black; font-family: "Times New Roman"; }
+h1, h2 { font-family: sans-serif; font-family: "Times New Roman" ; }
+p {text-align: justify; font-family: Verdana ; }
+body { background-color: light-grey; font-family: Verdana; }
+ul { list-style: none; }
+
+#topbar {
+    padding-top: 6px ;
+    background-color: #000;
+    height: 220px; 
+    background-repeat: no-repeat ;
+    background-image: url(pics/coffey.jpg); 
+    background-position: right bottom ; 
+    color: white ;
+    text-align: right ;
+    font-size: 9pt ;
+    font-style: italic ;
+    }
+#menu a {
+    display: none ;
+}
+#menu ul li a {
+    display: inline ;
+}    
+.content { 
+    background-color: #C6DDF5; 
+    width: 79%; 
+    float: left; }
+.logo { 
+    height: 200px; 
+    width: 400px; 
+    background-image: url(pics/logo1.png) ;
+    background-repeat: no-repeat ;}
+.menu { 
+    height: 30px; 
+    background-color: #B29C8A;}
+.active { 
+    background-color: #E5C9B1;
+}
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	background-color: #B29C8A;
+	border-bottom: 1px solid #8EC6DB; 
+	border-top: 1px solid #8EC6DB; }
+#nav li {
+	float: left; }
+#nav li a {
+	font-family: verdana;
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	border-right: 1px solid #8EC6DB; }
+#nav li a:hover {
+	color: #000;
+	background-color: #E5C9B1; }
+
+.container {
+    margin: 0 auto;
+	background-color: #8EC6DB;
+	height: auto;
+	width: 1200px ; 
+
+}
+.sidebar {
+    margin-right:10px;
+    float: left;
+    background-color: #B29C8A;
+	height: auto;
+	min-height: 500px;
+	width: 19%;
+}
+#abbreviations li {
+	list-style: none;
+}
+.footer {
+	clear: both;
+	background-color: #B29C8A;
+	height: auto;
+	min-height: 50px;
+	width: 100%;     
