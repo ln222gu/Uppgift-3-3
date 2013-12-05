@@ -1,3 +1,6 @@
+/*
+# = id, . = class
+*/
 h1 { color: black; font-family: "Times New Roman"; }
 h1, h2 { font-family: sans-serif; font-family: "Times New Roman" ; }
 p {text-align: justify; font-family: Verdana ; }
@@ -21,7 +24,8 @@ ul { list-style: none; }
 }
 #menu ul li a {
     display: inline ;
-}    
+}
+
 .content { 
     background-color: #C6DDF5; 
     width: 79%; 
@@ -37,7 +41,7 @@ ul { list-style: none; }
 .active { 
     background-color: #E5C9B1;
 }
-#nav {
+#menu {
 	width: 100%;
 	float: left;
 	margin: 0 0 3em 0;
@@ -45,9 +49,9 @@ ul { list-style: none; }
 	background-color: #B29C8A;
 	border-bottom: 1px solid #8EC6DB; 
 	border-top: 1px solid #8EC6DB; }
-#nav li {
+#menu li {
 	float: left; }
-#nav li a {
+#menu li a {
 	font-family: verdana;
 	display: block;
 	padding: 8px 15px;
@@ -55,7 +59,7 @@ ul { list-style: none; }
 	font-weight: bold;
 	color: #000000;
 	border-right: 1px solid #8EC6DB; }
-#nav li a:hover {
+#menu li a:hover {
 	color: #000;
 	background-color: #E5C9B1; }
 
