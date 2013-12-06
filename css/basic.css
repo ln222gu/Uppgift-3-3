@@ -83,13 +83,13 @@ ul { list-style: none; }
     padding: 10px ;
 	font-family: verdana;
 	text-decoration: none;
-	font-weight: bold;
 	color: #eae7d2 ;
-	border-right: 1px solid #51473d; 
+	border-right: 1px solid #51473d;
+	font-size: 9pt;
 }
 
 #menu ul li a:hover {
-	color: #000;
+	color:  #eae7d2;
 	background-color: #9c9084; 
 	}
     
@@ -144,6 +144,16 @@ margin: 0 5px ;
 	width: 40% ;
 }
 
+#subcontent ul li a {
+    color: #797066 ;
+    
+}
+
+#subcontent ul li a:visited {
+    color: #797066 ;
+    
+}
+
 #bottomcontent {
 	clear: both;
 	background-color: #eae7d2;
@@ -152,4 +162,6 @@ margin: 0 5px ;
 	width: 100%; 
 	color: #797066 ;
 	font-style: italic ;
+	font-size: 7pt ;
+	word-spacing: 3pt ;
 }
