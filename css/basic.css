@@ -110,7 +110,7 @@ ul { list-style: none; }
 }
 
 #content { 
-    
+    padding-top: 15px ;
     background-color: #eae7d2; 
     width: 600px; 
     float: left ;
@@ -127,9 +127,10 @@ ul { list-style: none; }
 }
 
 #maincontent {
+    padding-left: 5px;
     margin-bottom: 10px;
     background-color : #eae7d2 ;
-    width: 60% ;
+    width: 58% ;
     float: left ;
     border-right-style: dashed ;
     border-width: 1px ;
@@ -137,7 +138,6 @@ ul { list-style: none; }
 }
 
 #maincontent h1 {
-    margin-top: 20px ;
     margin-bottom: 12px;
 }
 
@@ -166,7 +166,6 @@ img
     
     font-size: 12pt ;
     margin-bottom: 20px ;
-    margin-top: 25px ;
     margin-left: 8px ;
 }
 
@@ -191,7 +190,7 @@ img
 }
 
 #bottomcontent {
-   
+    padding-left: 5px;
 	clear: both;
 	background-color: #eae7d2;
 	min-height: 20px;
