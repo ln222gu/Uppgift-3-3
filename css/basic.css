@@ -67,6 +67,7 @@ ul { list-style: none; }
     text-align: right ;
     font-size: 7pt ;
     font-style: italic ;
+    margin-bottom: 5px;
     }
     
 #menu a {
@@ -78,6 +79,7 @@ ul { list-style: none; }
 }
 
 #menu ul li a {
+
     background-color: #797066 ;
     display: inline-block ;
     padding: 10px ;
@@ -94,6 +96,7 @@ ul { list-style: none; }
 	}
     
 #menu {
+    text-transform:capitalize ;
 	width: 600px;
 	}
 	
@@ -107,10 +110,11 @@ ul { list-style: none; }
 }
 
 #content { 
+    
     background-color: #eae7d2; 
     width: 600px; 
     float: left ;
-    height: 600px ;
+    border-style: solid 3px #000 ;
     
 }
 
@@ -119,17 +123,15 @@ ul { list-style: none; }
 	background-color: #51473d;
 	width: 600px ; 
 	overflow: hidden ;
-	height: 800px ;
-	border-style: solid 3px #797066 ;
+	border-style: solid 3px #000 ;
 
 }
 
 #maincontent {
+    margin-bottom: 10px;
     background-color : #eae7d2 ;
     width: 60% ;
     float: left ;
-    height: auto ;
-    min-height: 500px ;
     border-right-style: dashed ;
     border-width: 1px ;
     border-color: #797066 ;
@@ -142,35 +144,45 @@ ul { list-style: none; }
 
 img 
 {
-float: left ;
-margin: 0 5px ;
+    float: left ;
+    margin: 0 5px ;
 }
 
 
 #subcontent {
+    
     float: right ;
     background-color: #eae7d2 ;
-	height: auto ;
-	min-height: 500px ;
 	width: 39% ;
 	
+	
 }
+
+#subcontent h2 {
+    
+    margin-left: 8px ;
+}
+
 #subcontent h1 {
     
     font-size: 12pt ;
     margin-bottom: 20px ;
     margin-top: 25px ;
+    margin-left: 8px ;
 }
 
 #subcontent p {
     
     font-size: 8pt ;
     margin-bottom: 20px ;
+    margin-left: 8px ;
+    margin-right: 5px ;
 }
 
 #subcontent ul li a {
     color: #797066 ;
     font-size: 13px ;
+    margin-left: 8px ;
     
 }
 
@@ -180,10 +192,10 @@ margin: 0 5px ;
 }
 
 #bottomcontent {
+   
 	clear: both;
 	background-color: #eae7d2;
-	height: auto;
-	min-height: 60px;
+	min-height: 20px;
 	width: 100%; 
 	color: #797066 ;
 	font-style: italic ;
